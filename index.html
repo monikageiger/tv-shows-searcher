@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <!-- <img id="leftimg" src="" alt=""> -->
+
+        <h1>Search TV Shows</h1>
+        <form id="searchForm">
+            <input type="text" placeholder="Search in title" name="query">
+            <button>Search</button>
+        </form>
+        <section>
+            <h2>Your findings</h2>
+            <ul id="lista">
+
+            </ul>
+        </section>
+        <section>
+            <table style="width:80%" id="table">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                    <th>Network</th>
+                </tr>
+
+            </table>
+
+
+        </section>
+        <script src="runjava.js"></script>
+    </div>
+</body>
+
+</html>
